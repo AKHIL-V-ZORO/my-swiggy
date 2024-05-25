@@ -1,0 +1,1 @@
+export const getAllMenuURL="https://www.themealdb.com/api/json/v1/1/search.php?f=f"

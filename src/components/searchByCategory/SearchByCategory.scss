@@ -1,0 +1,37 @@
+
+.search--category--dish{
+ padding-bottom:.5rem;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-radius:2px;
+ text-align: center;
+ cursor: pointer;
+}
+.search--category--card{
+    width: 160px;
+    
+}
+.search--category--dish img{
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 3px;
+}
+.search--category--card span{
+    font-size: small;
+    font-weight: 600;
+
+}
+.search--category--dish button{
+    padding: .25rem 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    background-color: rgb(47, 165, 47);
+    transition: all .200s ease-out;
+}
+.search--category--dish button:hover{
+background-color: rgb(13, 109, 13);
+transform: scale(.9);
+}

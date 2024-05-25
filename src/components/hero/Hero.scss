@@ -1,0 +1,52 @@
+.hero {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    background-position: center center;
+    height: 420px;
+}
+
+
+.hero--bottom--fade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top,rgb(0, 0, 0),transparent);
+}
+.hero--content {
+    position: absolute;
+    padding: 0.25rem;
+    color: white;
+    left: 20px;
+    top: 50%;
+    max-width: 400px;
+    transform: translateY(-50%);
+}
+.hero--content > h2 {
+    font-size: 24px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.hero--content > p {
+    padding-top: .5rem;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 590px) {
+    .hero {
+    }
+    
+    .hero--content > h2 {
+        font-size: 20px;
+    }
+    .hero--content > p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

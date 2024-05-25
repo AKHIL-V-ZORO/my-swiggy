@@ -1,0 +1,49 @@
+.special--dishes{
+   position: relative;
+   width:180px;
+   text-align: center;
+   border-radius: 5px;
+   transition: all .800s ease-out;
+   cursor: pointer;
+}
+
+.special--dishes--overlay{
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.522);
+    opacity: .8;
+}
+.special--dishes img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.special--dishes--name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+    opacity: 0;
+}
+.special--dishes:hover .special--dishes--overlay{
+opacity: 0.5;
+}
+.special--dishes:hover .special--dishes--name{
+    opacity: 1;
+}
+
+@media(max-width:500px){
+    .special--dishes{
+        width: 70%;
+     }
+     
+}

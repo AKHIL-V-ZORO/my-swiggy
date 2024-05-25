@@ -1,0 +1,33 @@
+.menus{
+    padding: .5rem;
+    margin-top: 60px;
+}
+.menus--content{
+    text-align: center;
+    color: var(--text-color)
+}
+.menus--content>p{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-weight: 400;
+}
+
+.menus--title{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.menus--special{
+    margin-top: 30px;
+    display:flex;
+    padding: 1rem;
+     grid-template-columns:repeat(auto-fill, minmax(190px,1fr)) ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.filtered--dishes{
+    padding: 1rem;
+    text-align: center;
+}
